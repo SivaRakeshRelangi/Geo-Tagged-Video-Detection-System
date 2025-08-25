@@ -1,5 +1,5 @@
 # Geo-Tagged-Video-Detection-System
-- You can give Fps rate and Epochs just change values as shown in the Image below.
+- You can change and give desired Fps rate and Epochs just change values as shown in the Image below.
 ### **Taken fps as #1 and epochs as #2 because I train this in CPU, not GPU**
 ![fpsandepochsettingshere](fpsandepochsettingshere.png) 
 # Banner-OCR + Motion-AutoLabel → FasterRCNN (GPS-Joined)
