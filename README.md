@@ -7,7 +7,7 @@
 ![CustomlabelDataTrain](CustomlabelDataTrain.png) 
 
 # Video-Detection-System
-- You can change and give desired Fps rate and Epochs just change the values as shown in the Image below.
+- You can change and give desired Fps rate  change the values as shown in the Image below.
 
 ![fpsandepochsettingshere](fpsandepochsettingshere.png) 
 
@@ -48,16 +48,22 @@ This project extracts frames from a video at a configurable rate, performs **OCR
  
 
 ---
-
+## 🗂️ Outputs
+- `dataset_pipeline/frames/` – extracted JPG/PNG frames
+- `dataset_pipeline/metadata.csv` – frame index, timestamp, OCR text, frame file path
+- `output_annotated.mp4` – YOLO‑annotated video
 
 
 ---
 
-## ⚙️ Setup (Google Colab)
-1. Open the provided notebook:  
-   `object_video_detection.ipynb`
-2. Upload your video to Colab and set `VIDEO_PATH`.  
-3. Run cells sequentially:
+## 🚀 Quick Start (Colab)
+
+1. Open `object_detection_video.ipynb` in **Google Colab**.
+2. Run **Setup** cell to install dependencies.
+3. Upload your input video (or set the `VIDEO_PATH` / `INPUT_VIDEO` variable).
+4. (Optional) For OCR on Windows, set the Tesseract path as shown above.
+5. Run the **Frame Extraction + OCR** cell(s). This will populate the frames folder and write `metadata.csv`.
+6. Run the **YOLO Inference** cell(s) to generate `output_annotated.mp4`.
     
 
 ---
