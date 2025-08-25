@@ -2,7 +2,7 @@
 - original Video:  https://drive.google.com/file/d/1kcUaKQNXdkThDdXPb1t7n7entbr-QSRX/view?usp=sharing
 - Output Video : https://drive.google.com/file/d/1K1XbDVAFvkFa0DfUllitElf2IaxKfTaj/view?usp=sharing
 
-# Using 10 Epochs training custom Dataset creating a yolov .pt File to use
+# Train a YOLOv8 model using Ultralytics on a custom dataset for 10 epochs,
 
 ![CustomlabelDataTrain](CustomlabelDataTrain.png) 
 
