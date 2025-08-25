@@ -10,7 +10,8 @@
 - `fasterrcnn_object.pth` — trained detector weights.  
 - `detections_with_gps.csv` — joined predictions + GPS/time.  
 - `/viz_val` — visualization frames with bounding boxes.  
-- ![fpsandepochsettingshere](projectFilesCreated.png) 
+- ![fpsandepochsettingshere](projectFilesCreated.png)
+-  
 This project provides an **end-to-end, Colab-ready pipeline** to convert a video into a dataset, auto-label motion below a banner, train a Faster R-CNN object detector, and join detections with OCR-extracted GPS coordinates.
 
 ---
