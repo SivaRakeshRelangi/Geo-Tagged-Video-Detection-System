@@ -1,8 +1,8 @@
 # Geo-Tagged-Video-Detection-System
 **Taken fps as #1 and epochs as #2 because I train this in CPU, not GPU**
-
+  - ![fpsandepochsettingshere](fpsandepochsettingshere.png) 
 # Banner-OCR + Motion-AutoLabel → FasterRCNN (GPS-Joined)
-
+- ![fpsandepochsettingshere](projectFilesCreated.png) 
 This project provides an **end-to-end, Colab-ready pipeline** to convert a video into a dataset, auto-label motion below a banner, train a Faster R-CNN object detector, and join detections with OCR-extracted GPS coordinates.
 
 ---
