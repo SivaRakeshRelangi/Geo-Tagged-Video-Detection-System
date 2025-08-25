@@ -1,6 +1,11 @@
 # video output Link: 
 - original Video:  https://drive.google.com/file/d/1kcUaKQNXdkThDdXPb1t7n7entbr-QSRX/view?usp=sharing
 - Output Video : https://drive.google.com/file/d/1K1XbDVAFvkFa0DfUllitElf2IaxKfTaj/view?usp=sharing
+
+# Using 10 Epochs training custom Dataset creating a yolov .pt File to use
+
+![CustomlabelDataTrain](CustomlabelDataTrain.png) 
+
 # Video-Detection-System
 - You can change and give desired Fps rate and Epochs just change the values as shown in the Image below.
 
