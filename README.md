@@ -74,7 +74,8 @@ This project provides an **end-to-end, Colab-ready pipeline** to convert a video
 ## 🛠 Troubleshooting
 - **OCR Issues**:  
   - Banner text may blur due to compression or motion.  
-  - Use HSV mask route for better extraction of **white on blue**.  
+  - Use HSV mask route for better extraction of **white on blue**.
+  - - ![Ocrpytessaracttext](Ocrpytessaracttext.png)
   - Raw OCR is stored in `metadata.csv` for debugging.  
 
 - **Motion Labels Mismatched**:  
