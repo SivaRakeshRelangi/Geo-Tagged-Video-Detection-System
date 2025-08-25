@@ -6,13 +6,15 @@
 ### **Taken fps as #1 and epochs as #2 because I train this in CPU, not GPU**
 ![fpsandepochsettingshere](fpsandepochsettingshere.png) 
 # Banner-OCR + Motion-AutoLabel → FasterRCNN (GPS-Joined)
-## 📂 Output Artifacts
-- `/images` — extracted frames.  
-- `/labels` — YOLO TXT auto-labels.  
-- `metadata.csv` — per-frame timestamp, LAT, LON, raw OCR text.  
-- `fasterrcnn_object.pth` — trained detector weights.  
-- `detections_with_gps.csv` — joined predictions + GPS/time.  
-- `/viz_val` — visualization frames with bounding boxes.  
+## 📚 Dependencies
+
+- Python 3.12+
+- OpenCV (opencv-python
+- Tesseract (pytesseract)
+- PyTorch (torch, torchvision)
+- Ultralytics (ultralytics)
+- Others: pandas, tqdm, matplotlib, pillow
+
 - ![fpsandepochsettingshere](projectFilesCreated.png)
 -  
 This project provides an **end-to-end, Colab-ready pipeline** to convert a video into a dataset, auto-label motion below a banner, train a Faster R-CNN object detector, and join detections with OCR-extracted GPS coordinates.
