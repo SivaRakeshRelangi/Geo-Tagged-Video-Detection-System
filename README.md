@@ -58,7 +58,7 @@ This project provides an **end-to-end, Colab-ready pipeline** to convert a video
 
 ## ⚙️ Setup (Google Colab)
 1. Open the provided notebook:  
-   `Video2Detections_GPS_Pipeline.ipynb`
+   `GEO_VID_DETECTOR.ipynb`
 2. Upload your video to Colab and set `VIDEO_PATH`.  
 3. Run cells sequentially:
    - **0) Setup** — installs dependencies.  
