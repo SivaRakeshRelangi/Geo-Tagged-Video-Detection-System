@@ -36,11 +36,7 @@ This project extracts frames from a video at a configurable rate, performs **OCR
 
 - ✅ Extract frames at a fixed interval (e.g., every 0.5 seconds)
 - ✅ Apply OCR using Tesseract on each frame
- 
-   - Tries **3 preprocessing routes**:  
-     - Otsu threshold on grayscale  
-     - Morphological open/close  
-     - White-on-blue HSV mask + Otsu  
+  
    - Extracts LAT/LON (if present) + saves raw OCR text.  
 - ✅ Save OCR + timestamp info to a CSV file
 - ✅ Perform YOLOv8 object detection on the full video
