@@ -1,4 +1,6 @@
-# video output Link: https://drive.google.com/file/d/1K1XbDVAFvkFa0DfUllitElf2IaxKfTaj/view?usp=sharing
+# video output Link: 
+- original Video:  https://drive.google.com/file/d/1kcUaKQNXdkThDdXPb1t7n7entbr-QSRX/view?usp=sharing
+- Output Video : https://drive.google.com/file/d/1K1XbDVAFvkFa0DfUllitElf2IaxKfTaj/view?usp=sharing
 # Geo-Tagged-Video-Detection-System
 - You can change and give desired Fps rate and Epochs just change values as shown in the Image below.
 ### **Taken fps as #1 and epochs as #2 because I train this in CPU, not GPU**
