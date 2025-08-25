@@ -82,10 +82,4 @@ This project provides an **end-to-end, Colab-ready pipeline** to convert a video
 
 ---
 
-## 📌 Suggested Task Name
-**Banner-OCR + Motion-AutoLabel → FasterRCNN (GPS-Joined) Pipeline**  
-
-
----
-
 
