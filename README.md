@@ -19,7 +19,6 @@ This project provides an **end-to-end, Colab-ready pipeline** to convert a video
 ## 🚀 Features
 1. **Frame Extraction**  
    - Time-based seeking for stable frame sampling (robust to variable-FPS videos).
-   - ![fpsandepochsettingshere](fpsandepochsettingshere.png) 
    - Fixed normalization to 848×448 resolution.  
 
 2. **OCR (LAT/LON from Banner)**  
