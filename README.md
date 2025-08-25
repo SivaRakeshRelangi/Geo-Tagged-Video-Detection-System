@@ -21,7 +21,12 @@ This project extracts frames from a video at a configurable rate, performs **OCR
 
 
 ---
-
+## 📌 Notes
+- Ensure your video is in a supported format (e.g., .mp4)
+- OCR quality depends on video resolution and clarity
+- Tesseract must be installed via apt for Colab environments
+- YOLOv8 can run on CPU, but GPU is recommended for speed
+- 
 ## 🚀 ## ⚙️ Features
 
 - ✅ Extract frames at a fixed interval (e.g., every 0.5 seconds)
