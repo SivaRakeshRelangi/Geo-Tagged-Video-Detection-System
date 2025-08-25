@@ -1,5 +1,5 @@
 # Geo-Tagged-Video-Detection-System
-** Taken fps as #1 and epochs as #2 because I train this in CPU, not GPU **
+**Taken fps as #1 and epochs as #2 because I train this in CPU, not GPU**
 
 # Banner-OCR + Motion-AutoLabel → FasterRCNN (GPS-Joined)
 
