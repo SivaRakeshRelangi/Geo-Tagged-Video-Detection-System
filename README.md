@@ -19,19 +19,35 @@
 - You can change and give desired Fps rate  change the values as shown in the Image below.
 
 ![fpsandepochsettingshere](fpsandepochsettingshere.png) 
+# 🎥 Object Detection on Video + 🧾 OCR Frame Extraction (YOLOv8, OpenCV, Tesseract)
 
+This project is a **Colab-first** (also works locally) notebook that:
+
+- Extracts frames from a video at a desired FPS
+- Runs **OCR** (Tesseract) on each extracted frame and logs results to a CSV
+- Performs **object detection** on **images** and **videos** using **YOLOv8 (Ultralytics)**
+- Saves annotated outputs (images/video) and a metadata CSV
+
+ ## ✨ Features
+
+- **Frame Extraction @ custom FPS** → Saves frames to `/content/dataset_pipeline/images`
+- **OCR via Tesseract** → Extracted text per frame saved to `metadata.csv`
+- **YOLOv8 Inference**
+  - Image inference → saves `annotated_detected_image.jpg`
+  - Video inference → saves `output_Video_annotated.mp4`
+- **Colab convenience** → One-click installs for `tesseract-ocr` and required Python packages  
+- **Local support** → Works on Windows/macOS/Linux (with minor path tweaks)
+
+  
 ## 📚 Dependencies
-
+The notebook installs everything automatically:
+- `tesseract-ocr`
+- `opencv-python`, `pillow`, `pytesseract`
+- `torch`, `torchvision`
+- `matplotlib`, `pandas`, `tqdm`
+- `ultralytics` (YOLOv8)
 - Python 3.12+
-- OpenCV (opencv-python
-- Tesseract (pytesseract)
-- PyTorch (torch, torchvision)
-- Ultralytics (ultralytics)
-- Others: pandas, tqdm, matplotlib, pillow
 
-- ![fpsandepochsettingshere](projectFilesCreated.png)
-
-This project extracts frames from a video at a configurable rate, performs **OCR (Optical Character Recognition)** using **Tesseract**, and applies **YOLOv8** object detection on the original video. Outputs include extracted frames, OCR metadata, and an annotated video with object detections.
 
 
 ---
@@ -40,16 +56,6 @@ This project extracts frames from a video at a configurable rate, performs **OCR
 - OCR quality depends on video resolution and clarity
 - Tesseract must be installed via apt for Colab environments
 - YOLOv8 can run on CPU, but GPU is recommended for speed
-- 
-## 🚀 ## ⚙️ Features
-
-- ✅ Extract frames at a fixed interval (e.g., every 0.5 seconds)
-- ✅ Apply OCR using Tesseract on each frame
-  
-   - Extracts LAT/LON (if present) + saves raw OCR text.  
-- ✅ Save OCR + timestamp info to a CSV file
-- ✅ Perform YOLOv8 object detection on the full video
-- ✅ Output annotated video with bounding boxes 
  
 
 ---
