@@ -2,10 +2,10 @@
 - original Video:  https://drive.google.com/file/d/1kcUaKQNXdkThDdXPb1t7n7entbr-QSRX/view?usp=sharing
 - Output Video : https://drive.google.com/file/d/1K1XbDVAFvkFa0DfUllitElf2IaxKfTaj/view?usp=sharing
 # Image output Detection using YOLO: 
-- original Image:
-- ![catimage](catimage.jpg) 
-- Output Image :
-- ![annotated_image](annotated_image.jpg)
+**original Image:**
+  ![catimage](catimage.jpg) 
+**Output Image :**
+ ![annotated_image](annotated_image.jpg)
 # Train a YOLOv8 model using Ultralytics on a custom dataset for 10 epochs,
 
 ![CustomlabelDataTrain](CustomlabelDataTrain.png) 
