@@ -14,7 +14,7 @@
 # Using OCR Extract text From Image
 ![ocrtextimgandextractedtext](ocrtextimgandextractedtext.png)
 
-# Video-Detection-System
+
 - You can change paths and give the desired FPS rate. Change the values as shown in the Image below.
 
 ![Inputs](Inputs.png) 
