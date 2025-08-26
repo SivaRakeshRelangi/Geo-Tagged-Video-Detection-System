@@ -12,7 +12,7 @@
 
 ![CustomlabelDataTrain](CustomlabelDataTrain.png) 
 
-#Using OCR Extract text From Image
+# Using OCR Extract text From Image
 ![ocrtextimgandextractedtext](ocrtextimgandextractedtext.png)
 
 # Video-Detection-System
