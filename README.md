@@ -2,10 +2,10 @@
 - original Video:  https://drive.google.com/file/d/1kcUaKQNXdkThDdXPb1t7n7entbr-QSRX/view?usp=sharing
 - Output Video : https://drive.google.com/file/d/1K1XbDVAFvkFa0DfUllitElf2IaxKfTaj/view?usp=sharing
 # Image output Detection using YOLO: 
-**original Image:**
+**Image Datection Before and After:**
   
-![catimage](catimage.jpg) 
-- **Output Image :**
+![beforeandafterobjectDetection](beforeandafterobjectDetection.png) 
+![Catimagedetection](Catimagedetection.png) 
 
    ![annotated_image](annotated_image.jpg)
 # Train a YOLOv8 model using Ultralytics on a custom dataset for 10 epochs,
