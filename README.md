@@ -7,7 +7,6 @@
 ![beforeandafterobjectDetection](beforeandafterobjectDetection.png) 
 ![Catimagedetection](Catimagedetection.png) 
 
-   ![annotated_image](annotated_image.jpg)
 # Train a YOLOv8 model using Ultralytics on a custom dataset for 10 epochs,
 
 ![CustomlabelDataTrain](CustomlabelDataTrain.png) 
