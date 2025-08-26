@@ -12,6 +12,9 @@
 
 ![CustomlabelDataTrain](CustomlabelDataTrain.png) 
 
+#Using OCR Extract text From Image
+![ocrtextimgandextractedtext](ocrtextimgandextractedtext.png)
+
 # Video-Detection-System
 - You can change and give desired Fps rate  change the values as shown in the Image below.
 
