@@ -15,9 +15,9 @@
 ![ocrtextimgandextractedtext](ocrtextimgandextractedtext.png)
 
 # Video-Detection-System
-- You can change and give desired Fps rate  change the values as shown in the Image below.
+- You can change paths and give the desired FPS rate. Change the values as shown in the Image below.
 
-![fpsandepochsettingshere](fpsandepochsettingshere.png) 
+![Inputs](Inputs.png) 
 # 🎥 Object Detection on Video + 🧾 OCR Frame Extraction (YOLOv8, OpenCV, Tesseract)
 
 This project is a **Colab-first** (also works locally) notebook that:
